@@ -1,0 +1,260 @@
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git
+$ git clone https://github.com/ChristianMeza05/examenprueba2.git
+Cloning into 'examenprueba2'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen (main)
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/examenprueba2 (main)
+$ git branch producción
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/examenprueba2 (main)
+$ git branch ventas
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/examenprueba2 (main)
+$ git branch recurso_humano
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/examenprueba2 (main)
+$ git branch
+* main
+  producción
+  recurso_humano
+  ventas
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/examenprueba2 (producción)
+$ git add .
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/examenprueba2 (producción)
+$ git status
+On branch producción
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   imagenproducto.jpg
+        new file:   materiaprima.txt
+        new file:   productofinal.txt
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/examenprueba2 (ventas)
+$ git add tiendas.txt
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/examenprueba2 (ventas)
+$ git status
+On branch ventas
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   imagenproducto.jpg
+        new file:   materiaprima.txt
+        new file:   productofinal.txt
+        new file:   tiendas.txt
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/examenprueba2 (recurso_humano)
+$ git add empleados.txt
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/examenprueba2 (recurso_humano)
+$ git status
+On branch recurso_humano
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   empleados.txt
+        new file:   imagenproducto.jpg
+        new file:   materiaprima.txt
+        new file:   productofinal.txt
+        new file:   tiendas.txt
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/examenprueba2 (main)
+$ git merge producción
+Already up to date.
+
+
+
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (main)
+$ git branch producción
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (main)
+$ git branch ventas
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (main)
+$ git branch recurso_humano
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (main)
+$ git branch
+* main
+  producción
+  recurso_humano
+  ventas
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (main)
+$ git checkout producción
+Switched to branch 'producción'
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (producción)
+$ git add .
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (producción)
+$ git commit -m "se crearo el branch producciion junto con sus 3 archivos"[producción e697595] se crearo el branch producciion junto con sus 3 archivos
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 imagenproducto.jpg
+ create mode 100644 materiaprima.txt
+ create mode 100644 productofinal.txt
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (producción)
+$ git push
+fatal: The current branch producción has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin producción
+
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (producción)
+$ $ git push
+bash: $: command not found
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (producción)
+$ $ git push
+bash: $: command not found
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (producción)
+$ git push --set-upstream origin producción
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 94.28 KiB | 9.43 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'producción' on GitHub by visiting:
+remote:      https://github.com/ChristianMeza05/Examen3jaja/pull/new/producci%C3%B3n
+remote:
+To https://github.com/ChristianMeza05/Examen3jaja.git
+ * [new branch]      producción -> producción
+Branch 'producción' set up to track remote branch 'producción' from 'origin'.
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (producción)
+$ git checkout ventas
+Switched to branch 'ventas'
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (ventas)
+$ git add .
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (ventas)
+$ git commit -m "se crearo el branch ventas junto con un archivo"
+[ventas 01e7dad] se crearo el branch ventas junto con un archivo
+ 1 file changed, 3 insertions(+)
+ create mode 100644 tiendas.txt
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (ventas)
+$ git push --set-upstream origin ventas
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 375 bytes | 187.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'ventas' on GitHub by visiting:
+remote:      https://github.com/ChristianMeza05/Examen3jaja/pull/new/ventas
+remote:
+To https://github.com/ChristianMeza05/Examen3jaja.git
+ * [new branch]      ventas -> ventas
+Branch 'ventas' set up to track remote branch 'ventas' from 'origin'.
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (ventas)
+$ git checkout recurso_humano
+Switched to branch 'recurso_humano'
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (recurso_humano)
+$ git status
+On branch recurso_humano
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        empleados.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (recurso_humano)
+$ git add .
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (recurso_humano)
+$ git commit -m "se crearo el branch recursoshumanos junto con un archivo"
+[recurso_humano 2bd8bb0] se crearo el branch recursoshumanos junto con un archivo
+ 1 file changed, 5 insertions(+)
+ create mode 100644 empleados.txt
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (recurso_humano)
+$ git push --set-upstream origin recurso_humano
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 390 bytes | 390.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'recurso_humano' on GitHub by visiting:
+remote:      https://github.com/ChristianMeza05/Examen3jaja/pull/new/recurso_humano
+remote:
+To https://github.com/ChristianMeza05/Examen3jaja.git
+ * [new branch]      recurso_humano -> recurso_humano
+Branch 'recurso_humano' set up to track remote branch 'recurso_humano' from 'origin'.
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (recurso_humano)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (main)
+$ git merge producción
+Updating 76abd8f..e697595
+Fast-forward
+ imagenproducto.jpg | Bin 0 -> 100754 bytes
+ materiaprima.txt   |   0
+ productofinal.txt  |   0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 imagenproducto.jpg
+ create mode 100644 materiaprima.txt
+ create mode 100644 productofinal.txt
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (main)
+$ git push --set-upstream origin main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ChristianMeza05/Examen3jaja.git
+   76abd8f..e697595  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (main)
+$ git tag -a v1.0 -m "Versión 1.0"
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (main)
+$ git checkout recurso_humano
+Switched to branch 'recurso_humano'
+Your branch is up to date with 'origin/recurso_humano'.
+
+Cristian Meza Sotelo@DESKTOP-3V7N2MA MINGW64 /d/git/Examen3jaja (recurso_humano)
+$ git diff
+diff --git a/empleados.txt b/empleados.txt
+index 9d218ae..9da175a 100644
+--- a/empleados.txt
++++ b/empleados.txt
+@@ -2,4 +2,10 @@ Cristian Alejandro Meza Sotelo
+ Jose Humberto Meza Sotelo
+ Luis Ernesto Meza Sotelo
+ Sonia Mgaly Meza Sotelo
+-Ernesto Meza Meza
+\ No newline at end of file
++Ernesto Meza Meza
++....
++Paul
++Cesar
++Jairo
++Villela
++Nadia
+\ No newline at end of file
+
+
+
+
+
+
+Me quede en el unto 7
+
